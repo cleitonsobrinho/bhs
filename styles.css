@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#76b5a0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color:#0f7d7e;
+    color: #1c3166;
+}
+
+#logo{
+    width: 100px;
+    height: 80px;
+}
+
+#logo img{
+    width: 100%;
+    height: 98%;
+}
+
+#desc{
+    margin-top: 15px;
+}
+
+#desc p {
+    font-size: 20px;
+    font-weight: 100px;
+    color: #1c3166;
+}
+
+#container{
+    width: 300px;
+    text-align: center;
+    margin: auto;  
+}
+
+input{
+    height: 30px;
+    padding: 10px;
+    color: #1c3166;
+}
+
+button{
+    height: 30px;
+    color: #1c3166;
+    cursor: pointer;
+}
+
+button hover{
+    color: #11677c;
+}
+
+#resposta{
+    margin-top: 20px;
+    color: green;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+.imageMain{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+#sistema {
+    width : 100%;
+    height: 100%;
+}
+
+footer{
+    position: fixed;
+    background-color:#0f7d7e;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+footer p {
+    color: #1c3166;
+    margin: 0px;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    
+    .imageMain{
+        
+        width: 100%;
+        height: 350px;
+    }
+    
+    #sistema {
+        width : 100%;
+        height: 100%;
+    }
+    
+    .header-main{
+       width: 100%;
+    }
+}
