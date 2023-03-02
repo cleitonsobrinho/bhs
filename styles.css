@@ -54,8 +54,10 @@ button{
 button hover{
     color: #11677c;
 }
-
-#resposta{
+#response p{
+    color: red;
+}
+#response{
     margin-top: 20px;
     color: green;
     margin-bottom: 10px;
@@ -71,7 +73,7 @@ button hover{
     height: 400px;
 }
 
-#sistema {
+#system {
     width : 100%;
     height: 100%;
 }
@@ -92,6 +94,16 @@ footer p {
     padding: 5px;
 }
 
+#copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color:#0f7d7e;
+    color: #1c3166;
+  
+  }
+
 @media (max-width: 600px) {
     
     .imageMain{
@@ -100,7 +112,7 @@ footer p {
         height: 350px;
     }
     
-    #sistema {
+    #system {
         width : 100%;
         height: 100%;
     }
@@ -108,4 +120,9 @@ footer p {
     .header-main{
        width: 100%;
     }
+
+    #copyright {
+        font-size: 10px;
+    
+      }
 }
