@@ -19,20 +19,34 @@
        <div id="desc">
            <p>Digite o número do Equipamento</p>
        </div>
-        <input type="search" id="referencia" placeholder="Exemplo: 7113" value="">
-        <button id="testeClick" onclick="pesquisar()">Buscar</button>
+        <input type="search" id="referencia" placeholder="Exemplo: 7113" value="" list="bf">
+        <datalist id="bf">
+            <option value="7113">
+            <option value="7213">
+            <option value="2113">
+            <option value="7101">
+            <option value="2502">
+            <option value="3305">
+            <option value="1301">
+            <option value="Entradas dos túneis">
+            <option value="Saídas dos túneis">
+        </datalist>
+        <button id="btnSearch" onclick="pesquisar()">Buscar</button>
     </div>
-    <div id="resposta">
+    <div id="response">
         
     </div>
      <div id="imagens">
          <div class="imageMain">
-             <img src='assets/carrossel.jpeg' alt="bhs" id="sistema">
+             <img src='assets/carrossel.jpeg' alt="bhs" id="system">
          </div>
      </div>
     
      <footer>
-        <p>@CleitonSobrinho</p> 
+        <div id="copyright">
+            <div><img src="assets/copyright.png" alt="copyright"></div>
+            <p>2023. Todos os direitos reservados. Desenvolvido por Cleiton Sobrinho.</p>
+          </div>
      </footer>
     
     <script src="script.js"></script>
