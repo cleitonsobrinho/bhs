@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-main">
+        <div id="logo">
+            <img src="assets/inframerica-logo.png" alt="logo">
+        </div>
+        <h1>Sistema BHS</h1>
+    </header>
+
+    <div id="containerForm">
+            <h1>Relatório de serviço</h1>
+        <form action="https://formsubmit.co/6f28f3086dc61b4ca749974321ca9caa" method="POST">
+
+            <label for="group">Grupo:</label>
+            <input type="text" name="Grupo" id="group" required>
+    
+            <label for="bf">Equipamento:</label>
+            <input type="text" name="Número da BF" id="bf" required>
+    
+            <label for="initDate">Data de início:</label>
+            <input type="date" name="Data do início" id="initDate" required> 
+    
+            <label for="endDate">Data do fim:</label>
+            <input type="date" name="Data do fim" id="initDate" required>
+    
+            <label for="startTime">Hora do início:</label>
+            <input type="time" name="Hora do início" id="startTime" required>
+    
+            <label for="endTime">Hora do início:</label>
+            <input type="time" name="Hora do início" id="endTime" required>
+    
+            <label for="obs">Serviço executado:</label>
+            <input type="text" name="Serviço executado" id="obs" required>
+    
+            <label for="technical">Técnicos responsáveis:</label>
+            <input type="text" name="Técnicos responsáveis" id="technical" list="teck" required>
+    
+            <datalist id="teck">
+                <option value="Cleiton">
+                <option value="Daniel">
+                <option value="Weber">
+                <option value="Welisson"> 
+            </datalist>
+    </div>
+        <div class="containerButton">
+            <button type="submit" class="prev">Enviar</button>
+        </div>
+    </form>
+    
+    <footer>
+        <div id="copyright">
+            <div><img src="assets/copyright.png" alt="copyright"></div>
+            <p>2023. Todos os direitos reservados. Desenvolvido por Cleiton Sobrinho.</p>
+          </div>
+     </footer>
+</body>
+</html>
