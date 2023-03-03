@@ -69,8 +69,8 @@ button hover{
 
 .imageMain{
     margin: auto;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
 }
 
 #system {
@@ -78,14 +78,76 @@ button hover{
     height: 100%;
 }
 
+#containerForm h1{
+    text-align: center;
+    color: #1c3166;
+ }
+
+  #containerForm form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 5px;
+    width: 300px;
+  }
+
+  
+  #containerForm input {
+    color: #1c3166;
+    border-color: #0f7d7e;
+    border-radius: 10px;
+    border-top: #0f7d7e;
+    border-left: #0f7d7e;
+  }
+
+  #containerForm label {
+    color: #1c3166;
+    font-size: 18px;
+  }
+
+  #obs {
+    height: 100px;
+  }
+
+  .containerButton{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .prev{
+    background-color: #0f7d7e;
+    color: white;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  
+  .prev:hover{
+    background-color: #0cb0b3;
+    color: #11677c;
+  }
+
+  .prev a{
+     text-decoration: none;
+     margin: auto;
+  }
+
 footer{
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    position: absolute;
     background-color:#0f7d7e;
     bottom: 0px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
-    margin: 0px;
 }
 
 footer p {
